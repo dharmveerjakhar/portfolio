@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharmveer Jakhar - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo">Dharmveer Jakhar</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Dharmveer Jakhar</h1>
+                <h2>Software Development Engineer</h2>
+                <p>Building high-performance, scalable systems with expertise in Go, Java, and microservices architecture</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#experience" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a Software Development Engineer with expertise in building high-throughput, low-latency systems. Currently working at Meesho, I specialize in developing and optimizing microservices using Go and Java, with a focus on performance, scalability, and reliability.</p>
+                    <p>With experience in implementing circuit breaker patterns, migrating services from Java to Go, and creating automated solutions, I've consistently delivered results that improve system performance and drive business value.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bengaluru, India</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>dmvr1205@gmail.com</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-phone"></i>
+                            <span>+91-9784123565</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fab fa-linkedin"></i>
+                            <span><a href="https://linkedin.com/in/dvjakhar" target="_blank">linkedin.com/in/dvjakhar</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                        <p>Your Photo Here</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>Dec 2024 - Present</span>
+                        <span class="location">Bengaluru, India</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Software Development Engineer 2</h3>
+                        <h4>Meesho</h4>
+                        <ul>
+                            <li>Owner of Ads Product Recommendation and Recently Viewed feed services, handling throughput in order of <strong>12k QPS</strong> and <strong>1k QPS</strong> respectively, with <strong>p99 latencies of 110ms</strong></li>
+                            <li>Implemented <strong>HTTP and gRPC framework</strong> support with middleware and telemetry in Go in a Meesho-managed central go-core library, leveraged by all services written in Go</li>
+                            <li>Implemented <strong>circuit breaker patterns using Resilience4j</strong> on key serving flows for ads, which are critical for driving revenue. Added fallback mechanisms for these flows to ensure seamless operation and prevent revenue loss during system failures</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>July 2022 - Nov 2024</span>
+                        <span class="location">Bengaluru, India</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Software Development Engineer 1</h3>
+                        <h4>Meesho</h4>
+                        <ul>
+                            <li>Created a novel microservice to <strong>automate daily manual tasks</strong> for Meesho's key account managers, resulting in increased efficiency and weekly cost savings of <strong>20 lacs INR</strong></li>
+                            <li>Led migration of multiple feed generators and orchestrators from <strong>Java to GoLang</strong>, delivering <strong>65% cost savings ($30K/month) and 50% latency reduction</strong> via batching and gRPC optimizations, while maintaining SLA adherence, enabling platformization, and minimizing cross-team dependencies</li>
+                            <li>Collaborated with Product, Data Science and Tech Teams to enable a new real estate(<strong>Recently Viewed Products</strong>) on ads contributing to revenue uplift of <strong>5% (10 lacs/day)</strong></li>
+                            <li>Developed features to <strong>boost new catalogs visibility</strong> on Meesho through ads, resulting in an <strong>8%</strong> increase in catalog additions</li>
+                            <li>Handled primary <strong>on-calls and production outages</strong> to support, troubleshoot, monitor and optimise production systems along with database clusters</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>June 2021 - July 2021</span>
+                        <span class="location">Remote, India</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer Internship</h3>
+                        <h4>Miskaa</h4>
+                        <ul>
+                            <li>Developed and maintained the <strong>Flask backend for a Kitchen Companion App</strong>, including implementing REST APIs and integrating a Flask Monitoring Dashboard for performance tracking</li>
+                            <li>Created a service to record meetings via a <strong>self-hosted Jitsi server</strong> and store recordings in <strong>AWS S3</strong>, and designed a configurable module for automated CSV report generation and email delivery using cron jobs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="education-info">
+                    <h3>Indian Institute of Technology (IIT), BHU</h3>
+                    <p>Bachelor of Technology in Civil Engineering</p>
+                    <p><strong>CGPA:</strong> 8.14/10</p>
+                </div>
+                <div class="education-date">
+                    <span>July 2018 - May 2022</span>
+                    <span class="location">Varanasi, India</span>
+                </div>
+            </div>
+            <div class="education-details">
+                <p>Represented institute in Technex'19 Robowars event among 30+ other colleges all across India</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            
+            <div class="skills-category">
+                <h3>Skills</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Data Structures</span>
+                    <span class="skill-tag">Algorithms</span>
+                    <span class="skill-tag">Microservices</span>
+                    <span class="skill-tag">Design Patterns</span>
+                    <span class="skill-tag">Mentoring</span>
+                    <span class="skill-tag">Competitive Programming</span>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>Programming Languages</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Go</span>
+                    <span class="skill-tag">C/C++</span>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>Technologies</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Apache Kafka</span>
+                    <span class="skill-tag">Redis</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">BigTable</span>
+                    <span class="skill-tag">Scylla</span>
+                    <span class="skill-tag">Apache Spark</span>
+                    <span class="skill-tag">S3</span>
+                    <span class="skill-tag">GCS</span>
+                    <span class="skill-tag">Zookeeper</span>
+                    <span class="skill-tag">REST</span>
+                    <span class="skill-tag">gRPC</span>
+                    <span class="skill-tag">Protocol Buffers</span>
+                    <span class="skill-tag">Webhook</span>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>Cloud Platforms</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">AWS</span>
+                    <span class="skill-tag">GCP</span>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>Frameworks & Tools</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Spring Boot</span>
+                    <span class="skill-tag">Maven</span>
+                    <span class="skill-tag">Postman</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Grafana</span>
+                    <span class="skill-tag">IntelliJ</span>
+                    <span class="skill-tag">Confluence</span>
+                    <span class="skill-tag">Jira</span>
+                    <span class="skill-tag">Sonar</span>
+                    <span class="skill-tag">Cronitor</span>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>DevOps</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Google Kubernetes Engine (GKE)</span>
+                    <span class="skill-tag">Jenkins</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-list">
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Meesho Panchayat Quarterly Award</h3>
+                        <p>Won in May '24 on being part of the Star POD of the Quarter for elongating the PDP Recommendations feed to 70 slots, delivering a platform ObvVi uplift of +0.45%</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>LeetCode Rating: 1879</h3>
+                        <p>Achieved a stellar rating of 1879 (max rating) on LeetCode</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Codeforces Expert</h3>
+                        <p>Achieved Expert status (max rating 1602) on Codeforces</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Inter-Department Coding Challenge</h3>
+                        <p>Secured 7th rank in Inter-Department Coding Challenge, IIT BHU</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>dmvr1205@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91-9784123565</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Bengaluru, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p><a href="https://linkedin.com/in/dvjakhar" target="_blank">linkedin.com/in/dvjakhar</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Dharmveer Jakhar. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/dvjakhar" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
